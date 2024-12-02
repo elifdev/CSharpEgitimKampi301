@@ -16,5 +16,7 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
 
         public List<Order> Orders { get; set; }
 
+        public bool CustomerStatus { get; set; }
+
     }
 }
