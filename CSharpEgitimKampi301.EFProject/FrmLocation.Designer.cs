@@ -238,6 +238,7 @@
             this.cmbGuide.Name = "cmbGuide";
             this.cmbGuide.Size = new System.Drawing.Size(246, 32);
             this.cmbGuide.TabIndex = 33;
+            this.cmbGuide.SelectedIndexChanged += new System.EventHandler(this.cmbGuide_SelectedIndexChanged);
             // 
             // FrmLocation
             // 

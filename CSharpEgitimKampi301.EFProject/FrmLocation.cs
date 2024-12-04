@@ -67,10 +67,15 @@ namespace CSharpEgitimKampi301.EFProject
             updatedvalue.Capacity= byte.Parse(nudCapacity.Value.ToString());    
             updatedvalue.City = txtCity.Text;
             updatedvalue.Country = txtCountry.Text;
-            updatedvalue.GuideId = int.Parse(cmbGuide.SelectedValue.ToString);
+            updatedvalue.GuideId = int.Parse(cmbGuide.SelectedValue.ToString());
             db.SaveChanges();
             MessageBox.Show("Güncelleme işlemi başarılı");
 
+
+        }
+
+        private void cmbGuide_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }
